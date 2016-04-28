@@ -26,26 +26,22 @@ Now we're ready to configure the app.
 Open the `config.json` file, located in the app root, and fill in the tokens that you got before: 
 ```json
 {
-  ...
-  
   "witai": {
-    "accessToken": "" // Use the token from the Wit app right here.
+    "accessToken": "Use the token from the Wit app right here."
   },
   "openWeather": {
-    "key": // And put the OpenWeatherMap's here.
+    "key": "And put the OpenWeatherMap's here."
   }
 }
 ```
 
-Also, you can set the server's host and port. Do it this way:
+Also, you can set the server's host and port:
 ```json
 {
   "server": {
     "host": "0.0.0.0",
     "port": 9000
   }
-  
-  ...
 }
 ```
 
@@ -57,6 +53,13 @@ $ npm start
 ```
 
 Navigate the server in a browser _et voilà_!
+
+The conversation must flow this way.
+- Bot: Connected
+- You: What's the weather?
+- Bot: Where exactly?
+- You: In Malaga, Spain (you can ask the bot for any town)
+- Bot: The weather in Malaga is 12ºC and clear sky.
 
 ## License
 

@@ -54,7 +54,8 @@ $ npm start
 
 Navigate the server in a browser _et voilà_!
 
-The conversation must flow this way.
+The conversation must flow this way:
+
 - Bot: Connected
 - You: What's the weather?
 - Bot: Where exactly?

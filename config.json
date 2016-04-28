@@ -1,0 +1,13 @@
+
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "witai": {
+    "accessToken": "your-witai-app-token"
+  },
+  "openWeather": {
+    "key": "your-openweathermap-key"
+  }
+}

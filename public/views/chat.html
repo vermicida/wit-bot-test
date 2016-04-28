@@ -1,0 +1,24 @@
+
+<div class="chat">
+    <!-- Conversation container -->
+    <div id="conversation" class="conversation u-full-width">
+        <div>
+            <div ng-repeat="line in conversation track by $index" ng-class="{ 'server': line.speaker === 'server', 'user': line.speaker === 'user' }">
+                <span>{{ line.message }}</span>
+                <span class="timestamp">
+                    <small>{{ line.timestamp | date: 'HH:mm' }}</small>
+                </span>
+            </div>
+            <!-- The anchor for the automatic scrolling -->
+            <div id="conversation-bottom"></div>
+        </div>
+    </div>
+    <!-- Hack: hidden scroll link -->
+    <div du-scroll-container="conversation" class="conversation-scroll">
+        <a id="tzsklxyjeurwykbf" href="#conversation-bottom" du-smooth-scroll></a>
+    </div>
+    <!-- User message box -->
+    <div class="user-message-box">
+        <input id="xuafdwulathjbujs" type="text" placeholder="Tell the bot something" class="u-full-width" ng-keyup="userMessageBoxKeyUp($event)">
+    </div>
+</div>

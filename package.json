@@ -1,0 +1,30 @@
+{
+  "name": "wit-ai-test",
+  "version": "0.0.1",
+  "description": "This is a simple Wit bot test.",
+  "scripts": {
+    "start": "nodemon server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vermicida/wit-ai-test.git"
+  },
+  "author": "Diego Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vermicida/wit-ai-test/issues"
+  },
+  "homepage": "https://github.com/vermicida/wit-ai-test#readme",
+  "dependencies": {
+    "colour": "^0.7.1",
+    "dateformat": "^1.0.12",
+    "express": "^4.13.4",
+    "node-wit": "^3.2.2",
+    "randomstring": "^1.1.4",
+    "request": "^2.72.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

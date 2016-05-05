@@ -1,5 +1,5 @@
 
-# wit-ai-test
+# wit-bot-test
 
 This is a simple Wit bot test. It can only give you the weather forecast. I know it's not as smart as you would like, but hey, it's a beginning ;)
 

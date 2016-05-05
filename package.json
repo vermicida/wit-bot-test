@@ -1,5 +1,5 @@
 {
-  "name": "wit-ai-test",
+  "name": "wit-bot-test",
   "version": "0.0.1",
   "description": "This is a simple Wit bot test.",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vermicida/wit-ai-test.git"
+    "url": "git+https://github.com/vermicida/wit-bot-test.git"
   },
   "author": "Diego Herrera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vermicida/wit-ai-test/issues"
+    "url": "https://github.com/vermicida/wit-bot-test/issues"
   },
-  "homepage": "https://github.com/vermicida/wit-ai-test#readme",
+  "homepage": "https://github.com/vermicida/wit-bot-test#readme",
   "dependencies": {
     "colour": "^0.7.1",
     "dateformat": "^1.0.12",

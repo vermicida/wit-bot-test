@@ -58,11 +58,11 @@ Navigate the server in a browser _et voilà_!
 
 The conversation must flow this way:
 
-- Bot: Connected
-- You: What's the weather?
-- Bot: Where exactly?
-- You: In Malaga, Spain (you can ask the bot for any town)
-- Bot: The weather in Malaga is 12ºC and clear sky.
+- **Bot**: Connected
+- **You**: What's the weather?
+- **Bot**: Where exactly?
+- **You**: In Malaga, Spain (you can ask the bot for any town)
+- **Bot**: The weather in Malaga is 12ºC and clear sky.
 
 ## License
 

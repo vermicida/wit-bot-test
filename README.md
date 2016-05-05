@@ -3,6 +3,8 @@
 
 This is a simple Wit bot test. It can only give you the weather forecast. I know it's not as smart as you would like, but hey, it's a beginning ;)
 
+[![Dependency Status](https://david-dm.org/vermicida/wit-bot-test.svg)](https://david-dm.org/vermicida/wit-bot-test)
+
 ## Getting started
 
 This application consumes a Wit app based on the [5 Minute Quickstart](https://wit.ai/docs/quickstart) recipe, so the first step you have to take is to follow up this guide and create your own app. Once the app is ready, go to the Settings / API Details menu in your Wit console and keep safe the Client Access Token; you will need it later.
@@ -11,7 +13,7 @@ To fetch the weather forecast, this application uses [OpenWeatherMap API](http:/
 
 Clone this repo using the command below:
 ```bash
-$ git clone https://github.com/vermicida/wit-ai-test.git
+$ git clone https://github.com/vermicida/wit-bot-test.git
 ```
 
 Then, install de app dependencies using NPM:
